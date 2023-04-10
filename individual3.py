@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import math
-import sys
-
 h = 10
 x = 5
 z = int()
 N = int()
 while N < h:
-# по формуле суммы арифмтической прогрессии
-    z = (2*x+(h-1)*2)*0.5
+    z = (2*x+(h-1)*2)*0.5    # По формуле суммы арифмтической прогрессии
     N = N + 1
     z = z * 10
     break
